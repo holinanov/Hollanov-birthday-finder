@@ -1,0 +1,216 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  background: linear-gradient(
+    135deg,
+    #3258d8 0%,
+    #619bd1 38%,
+    #df4561 62%,
+    #cc102f 100%
+  );
+
+  color: #17233a;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 40px;
+}
+
+
+/* MAIN CARD */
+
+.container {
+  background: #f7f9fc;
+
+  padding: 2rem;
+
+  border-radius: 14px;
+  border: 3px solid #ffffff;
+
+  box-shadow:
+    8px 8px 0 #c51f42,
+    -8px -8px 0 #2866a8;
+
+  max-width: 480px;
+  width: 90%;
+
+  text-align: center;
+}
+
+
+/* TITLE */
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+
+  color: #17233a;
+
+  font-size: 2rem;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+/* INPUTS */
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 1rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: #17233a;
+
+  font-weight: 700;
+  font-size: 0.85rem;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  margin-bottom: 0.4rem;
+}
+
+
+/* DROPDOWNS */
+
+select {
+  padding: 0.5rem 0.7rem;
+
+  border-radius: 6px;
+  border: 2px solid #edb91f;
+
+  background: #ffffff;
+  color: #17233a;
+
+  font-weight: 700;
+  font-size: 0.9rem;
+
+  width: 120px;
+
+  cursor: pointer;
+}
+
+
+/* MAIN BUTTON */
+
+.button-wrapper {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  padding: 0.75rem 1.3rem;
+
+  border-radius: 6px;
+  border: none;
+
+  background: #c51f42;
+  color: #ffffff;
+
+  font-weight: 800;
+  font-size: 1rem;
+
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #e03255;
+  transform: translateY(-2px);
+}
+
+
+/* RESULT */
+
+#result {
+  margin-top: 1rem;
+}
+
+#resultText {
+  color: #17233a;
+
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+
+/* HOLLANOV IMAGE */
+
+#hollanovImage {
+  margin-top: 1rem;
+
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 10px;
+
+  border: 3px solid #ffffff;
+
+  box-shadow:
+    5px 5px 0 #c51f42,
+    -5px -5px 0 #2866a8;
+}
+
+
+/* TWITTER BUTTON */
+
+#shareTwitter {
+  margin-top: 1.5rem;
+
+  background: #2866a8;
+  color: #ffffff;
+}
+
+#shareTwitter:hover {
+  background: #387bc1;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+
+  body {
+    padding-top: 20px;
+  }
+
+  .container {
+    width: 82%;
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .inputs {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  select {
+    width: 100%;
+  }
+}
