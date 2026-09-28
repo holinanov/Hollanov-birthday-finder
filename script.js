@@ -126,7 +126,7 @@ const hollanovResults = [
   },
   {
     image: "pics/hollanov20.png",
-    text: "Hollanov being boyfriends for 40 seconds and this motherfucker is already pissing Shane off(that their kink tho don't worry)"
+    text: "Hollanov being boyfriends for 40 seconds and this motherfucker is already pissing Shane off(that's their kink tho don't worry)"
   },
   {
     image: "pics/hollanov21.png",
